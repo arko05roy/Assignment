@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.facereel.processing.FacePipelineTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-08-31T19:20:37.895Z" hostname="Arkos-MacBook-Air.local" time="0.001">
+  <properties/>
+  <testcase name="filters tiny interface faces when a salient face is present" classname="com.example.facereel.processing.FacePipelineTest" time="0.0"/>
+  <testcase name="mouth position disambiguates upright and upside-down eye order" classname="com.example.facereel.processing.FacePipelineTest" time="0.0"/>
+  <testcase name="samples eighty frames across a twenty second recording" classname="com.example.facereel.processing.FacePipelineTest" time="0.001"/>
+  <testcase name="normalizes reversed eye landmark angles to the nearest roll" classname="com.example.facereel.processing.FacePipelineTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

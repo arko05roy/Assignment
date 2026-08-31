@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.facereel.processing.FaceClustererTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-08-31T19:20:37.877Z" hostname="Arkos-MacBook-Air.local" time="0.017">
+  <properties/>
+  <testcase name="merges nearby same-person embeddings at the MobileFaceNet threshold" classname="com.example.facereel.processing.FaceClustererTest" time="0.01"/>
+  <testcase name="does not merge different identities in the ambiguous similarity band" classname="com.example.facereel.processing.FaceClustererTest" time="0.0"/>
+  <testcase name="attaches a weak transition sample to a nearby strong temporal cluster" classname="com.example.facereel.processing.FaceClustererTest" time="0.004"/>
+  <testcase name="connects pose variants through strong pairwise matches" classname="com.example.facereel.processing.FaceClustererTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

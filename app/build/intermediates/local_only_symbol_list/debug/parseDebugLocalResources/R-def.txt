@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+color accent
+color ink
+color on_accent
+color surface
+drawable panel_background
+drawable record_button_background
+id cameraPreview
+id collageImage
+id controlPanel
+id countdownText
+id processingProgress
+id recordButton
+id statusText
+id titleText
+layout activity_main
+string app_name
+string camera_permission_rationale
+style Theme.FaceReel
+xml file_paths

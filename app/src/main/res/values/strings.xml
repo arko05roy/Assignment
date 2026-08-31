@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Face Reel</string>
+    <string name="camera_permission_rationale">Camera access is needed to record a 20-second reel.</string>
+</resources>

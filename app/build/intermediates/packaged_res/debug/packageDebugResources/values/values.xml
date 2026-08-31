@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#EA5B38</color>
+    <color name="ink">#121212</color>
+    <color name="on_accent">#FFFFFF</color>
+    <color name="surface">#FAF8F5</color>
+    <string name="app_name">Face Reel</string>
+    <string name="camera_permission_rationale">Camera access is needed to record a 20-second reel.</string>
+    <style name="Theme.FaceReel" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/ink</item>
+        <item name="android:navigationBarColor">@color/ink</item>
+        <item name="colorPrimary">@color/accent</item>
+    </style>
+</resources>

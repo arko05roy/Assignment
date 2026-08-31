@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.facereel.app-debug-51:/layout_activity_main.xml.flat",
+        "source": "com.example.facereel.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/arkoroy/.gradle/daemon/9.4.1/com.example.facereel.app-debug-51:/xml_file_paths.xml.flat",
+        "source": "/Users/arkoroy/.gradle/daemon/9.4.1/com.example.facereel.app-main-53:/xml/file_paths.xml"
+    },
+    {
+        "merged": "/Users/arkoroy/.gradle/daemon/9.4.1/com.example.facereel.app-debug-51:/layout_activity_main.xml.flat",
+        "source": "/Users/arkoroy/.gradle/daemon/9.4.1/com.example.facereel.app-main-53:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/arkoroy/.gradle/daemon/9.4.1/com.example.facereel.app-debug-51:/drawable_record_button_background.xml.flat",
+        "source": "/Users/arkoroy/.gradle/daemon/9.4.1/com.example.facereel.app-main-53:/drawable/record_button_background.xml"
+    },
+    {
+        "merged": "/Users/arkoroy/.gradle/daemon/9.4.1/com.example.facereel.app-debug-51:/drawable_panel_background.xml.flat",
+        "source": "/Users/arkoroy/.gradle/daemon/9.4.1/com.example.facereel.app-main-53:/drawable/panel_background.xml"
+    }
+]
