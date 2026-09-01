@@ -32,7 +32,7 @@ class TfliteEmbeddingEngine(context: Context) : EmbeddingEngine {
 
     init {
         val loaded = runCatching {
-            val model = context.assets.open("mobile_face_net.tflite").use { input ->
+            val model = context.assets.open("facenet.tflite").use { input ->
                 input.readBytes().let { ByteBuffer.allocateDirect(it.size).order(ByteOrder.nativeOrder()).put(it).apply { rewind() } }
             }
             Interpreter(model, Interpreter.Options().setNumThreads(1))

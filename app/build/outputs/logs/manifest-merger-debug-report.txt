@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 provider#androidx.core.content.FileProvider
-INJECTED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:19:9-27:20
+INJECTED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:19:9-27:20
 	android:grantUriPermissions
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:23:13-47
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:23:13-47
 	android:authorities
-		INJECTED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:21:13-57
+		INJECTED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:21:13-57
 	android:exported
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:22:13-37
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:20:13-62
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:20:13-62
 manifest
-ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:1:1-29:12
-INJECTED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:1:1-29:12
-INJECTED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:1:1-29:12
-INJECTED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:1:1-29:12
+ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:1:1-29:12
+INJECTED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:1:1-29:12
 MERGED from [androidx.databinding:viewbinding:9.2.0] /Users/arkoroy/.gradle/caches/9.4.1/transforms/85bf358c3d5a438d6d978e7139baade2/transformed/viewbinding-9.2.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.material:material:1.13.0] /Users/arkoroy/.gradle/caches/9.4.1/transforms/1d6b55927912fb61dc0152fdaa9ccdea/transformed/material-1.13.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/arkoroy/.gradle/caches/9.4.1/transforms/1d0dcfeccc5c6d9d8ab0c0be4a7df304/transformed/constraintlayout-2.2.1/AndroidManifest.xml:2:1-9:12
@@ -94,20 +94,20 @@ MERGED from [org.tensorflow:tensorflow-lite:2.16.1] /Users/arkoroy/.gradle/cache
 MERGED from [org.tensorflow:tensorflow-lite-api:2.16.1] /Users/arkoroy/.gradle/caches/9.4.1/transforms/8c621461839c98168facf79ad4e96729/transformed/tensorflow-lite-api-2.16.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/arkoroy/.gradle/caches/9.4.1/transforms/40ef61f83d85b79bf5561364749ec7ed/transformed/image-1.0.0-beta1/AndroidManifest.xml:2:1-9:12
 	package
-		INJECTED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.CAMERA
-ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:2:5-65
+ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:2:5-65
 	android:name
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:2:22-62
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:2:22-62
 application
-ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:4:5-28:19
-INJECTED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:4:5-28:19
+ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:4:5-28:19
+INJECTED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:4:5-28:19
 MERGED from [com.google.android.material:material:1.13.0] /Users/arkoroy/.gradle/caches/9.4.1/transforms/1d6b55927912fb61dc0152fdaa9ccdea/transformed/material-1.13.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.13.0] /Users/arkoroy/.gradle/caches/9.4.1/transforms/1d6b55927912fb61dc0152fdaa9ccdea/transformed/material-1.13.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.1] /Users/arkoroy/.gradle/caches/9.4.1/transforms/1d0dcfeccc5c6d9d8ab0c0be4a7df304/transformed/constraintlayout-2.2.1/AndroidManifest.xml:7:5-20
@@ -151,47 +151,47 @@ MERGED from [org.tensorflow:tensorflow-lite-api:2.16.1] /Users/arkoroy/.gradle/c
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/arkoroy/.gradle/caches/9.4.1/transforms/40ef61f83d85b79bf5561364749ec7ed/transformed/image-1.0.0-beta1/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/arkoroy/.gradle/caches/9.4.1/transforms/40ef61f83d85b79bf5561364749ec7ed/transformed/image-1.0.0-beta1/AndroidManifest.xml:7:5-20
 	android:extractNativeLibs
-		INJECTED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.17.0] /Users/arkoroy/.gradle/caches/9.4.1/transforms/162710bbc774460e55d4a4ebb9eb82aa/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:8:9-35
 	android:label
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:6:9-41
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:6:9-41
 	android:allowBackup
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:5:9-35
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:5:9-35
 	android:theme
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:7:9-46
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:7:9-46
 activity#com.example.facereel.MainActivity
-ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:9:9-18:20
+ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:9:9-18:20
 	android:screenOrientation
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:13:13-49
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:13:13-49
 	android:exported
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:12:13-36
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:12:13-36
 	android:configChanges
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:11:13-59
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:11:13-59
 	android:name
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:10:13-41
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:10:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:14:13-17:29
+ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:14:13-17:29
 action#android.intent.action.MAIN
-ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:15:17-69
+ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:16:27-74
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:24:13-26:54
+ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:24:13-26:54
 	android:resource
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:26:17-51
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:26:17-51
 	android:name
-		ADDED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:25:17-67
+		ADDED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:25:17-67
 uses-sdk
-INJECTED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml
-INJECTED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml
+INJECTED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml
+INJECTED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml
 MERGED from [androidx.databinding:viewbinding:9.2.0] /Users/arkoroy/.gradle/caches/9.4.1/transforms/85bf358c3d5a438d6d978e7139baade2/transformed/viewbinding-9.2.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.databinding:viewbinding:9.2.0] /Users/arkoroy/.gradle/caches/9.4.1/transforms/85bf358c3d5a438d6d978e7139baade2/transformed/viewbinding-9.2.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.material:material:1.13.0] /Users/arkoroy/.gradle/caches/9.4.1/transforms/1d6b55927912fb61dc0152fdaa9ccdea/transformed/material-1.13.0/AndroidManifest.xml:20:5-44
@@ -349,9 +349,9 @@ MERGED from [org.tensorflow:tensorflow-lite-api:2.16.1] /Users/arkoroy/.gradle/c
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/arkoroy/.gradle/caches/9.4.1/transforms/40ef61f83d85b79bf5561364749ec7ed/transformed/image-1.0.0-beta1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.odml:image:1.0.0-beta1] /Users/arkoroy/.gradle/caches/9.4.1/transforms/40ef61f83d85b79bf5561364749ec7ed/transformed/image-1.0.0-beta1/AndroidManifest.xml:5:5-44
 	android:targetSdkVersion
-		INJECTED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml
 service#androidx.camera.core.impl.MetadataHolderService
 ADDED from [androidx.camera:camera-camera2:1.6.1] /Users/arkoroy/.gradle/caches/9.4.1/transforms/70e52aedebad5d175928a3f71d217fc8/transformed/camera-camera2-1.6.1/AndroidManifest.xml:24:9-33:19
 MERGED from [androidx.camera:camera-core:1.6.1] /Users/arkoroy/.gradle/caches/9.4.1/transforms/5ec242caab894415c796f24ef24eff25/transformed/camera-core-1.6.1/AndroidManifest.xml:29:9-33:78

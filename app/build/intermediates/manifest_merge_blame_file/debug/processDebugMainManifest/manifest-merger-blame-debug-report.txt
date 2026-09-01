@@ -12,8 +12,8 @@
 9-->INJECTED
 10
 11    <uses-permission android:name="android.permission.CAMERA" />
-11-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:2:5-65
-11-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:2:22-62
+11-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:2:5-65
+11-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:2:22-62
 12
 13    <permission
 13-->[androidx.core:core:1.17.0] /Users/arkoroy/.gradle/caches/9.4.1/transforms/162710bbc774460e55d4a4ebb9eb82aa/transformed/core-1.17.0/AndroidManifest.xml:22:5-24:47
@@ -33,58 +33,58 @@
 19-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/arkoroy/.gradle/caches/9.4.1/transforms/57eda35b32c7c1fd3771863e311a2b21/transformed/transport-backend-cct-2.3.3/AndroidManifest.xml:26:22-64
 20
 21    <application
-21-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:4:5-28:19
+21-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:4:5-28:19
 22        android:allowBackup="true"
-22-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:5:9-35
+22-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:5:9-35
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 23-->[androidx.core:core:1.17.0] /Users/arkoroy/.gradle/caches/9.4.1/transforms/162710bbc774460e55d4a4ebb9eb82aa/transformed/core-1.17.0/AndroidManifest.xml:28:18-86
 24        android:debuggable="true"
 25        android:extractNativeLibs="false"
 25-->INJECTED
 26        android:label="@string/app_name"
-26-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:6:9-41
+26-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:6:9-41
 27        android:supportsRtl="true"
-27-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:8:9-35
+27-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:8:9-35
 28        android:theme="@style/Theme.FaceReel" >
-28-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:7:9-46
+28-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:7:9-46
 29        <activity
-29-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:9:9-18:20
+29-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:9:9-18:20
 30            android:name="com.example.facereel.MainActivity"
-30-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:10:13-41
+30-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:10:13-41
 31            android:configChanges="orientation|screenSize"
-31-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:11:13-59
+31-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:11:13-59
 32            android:exported="true"
-32-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:12:13-36
+32-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:12:13-36
 33            android:screenOrientation="portrait" >
-33-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:13:13-49
+33-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:13:13-49
 34            <intent-filter>
-34-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:14:13-17:29
+34-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:14:13-17:29
 35                <action android:name="android.intent.action.MAIN" />
-35-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:15:17-69
-35-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:15:25-66
+35-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:15:17-69
+35-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:15:25-66
 36
 37                <category android:name="android.intent.category.LAUNCHER" />
-37-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:16:17-77
-37-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:16:27-74
+37-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:16:17-77
+37-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:16:27-74
 38            </intent-filter>
 39        </activity>
 40
 41        <provider
 41-->INJECTED
 42            android:name="androidx.core.content.FileProvider"
-42-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:20:13-62
+42-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:20:13-62
 43            android:authorities="com.example.facereel.files"
 43-->INJECTED
 44            android:exported="false"
-44-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:22:13-37
+44-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:22:13-37
 45            android:grantUriPermissions="true" >
-45-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:23:13-47
+45-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:23:13-47
 46            <meta-data
-46-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:24:13-26:54
+46-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:24:13-26:54
 47                android:name="android.support.FILE_PROVIDER_PATHS"
-47-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:25:17-67
+47-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:25:17-67
 48                android:resource="@xml/file_paths" />
-48-->/Users/arkoroy/Desktop/mo/app/src/main/AndroidManifest.xml:26:17-51
+48-->/Users/arkoroy/Desktop/mo/Assignment/app/src/main/AndroidManifest.xml:26:17-51
 49        </provider>
 50
 51        <service

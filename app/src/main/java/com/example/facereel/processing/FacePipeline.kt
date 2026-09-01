@@ -50,16 +50,7 @@ class FacePipeline(
                     .setLandmarkMode(FaceDetectorOptions.LANDMARK_MODE_ALL)
                     .setContourMode(FaceDetectorOptions.CONTOUR_MODE_NONE)
                     .setClassificationMode(FaceDetectorOptions.CLASSIFICATION_MODE_NONE)
-                    .setMinFaceSize(0.05f)
-                    .build(),
-            )
-            val alignmentValidator = FaceDetection.getClient(
-                FaceDetectorOptions.Builder()
-                    .setPerformanceMode(FaceDetectorOptions.PERFORMANCE_MODE_FAST)
-                    .setLandmarkMode(FaceDetectorOptions.LANDMARK_MODE_NONE)
-                    .setContourMode(FaceDetectorOptions.CONTOUR_MODE_NONE)
-                    .setClassificationMode(FaceDetectorOptions.CLASSIFICATION_MODE_NONE)
-                    .setMinFaceSize(0.25f)
+                    .setMinFaceSize(0.015f)
                     .build(),
             )
             try {
@@ -115,44 +106,18 @@ class FacePipeline(
                                 secondEye,
                                 faceDown,
                                 ALIGNED_DISPLAY_SIZE,
-                            ) ?: run {
-                                crop.recycle()
-                                return@forEachIndexed
-                            }
-                            var embeddingInput = Bitmap.createScaledBitmap(
-                                displayCrop, EMBEDDING_INPUT_SIZE, EMBEDDING_INPUT_SIZE, true,
                             )
-                            var normalizedFace = alignmentValidator
-                                .process(InputImage.fromBitmap(embeddingInput, 0)).await()
-                                .any { validated -> isUsableModelFace(validated.boundingBox) }
-                            if (!normalizedFace) {
-                                embeddingInput.recycle()
-                                displayCrop.recycle()
+                            if (displayCrop == null) {
                                 displayCrop = Bitmap.createScaledBitmap(
                                     crop, ALIGNED_DISPLAY_SIZE, ALIGNED_DISPLAY_SIZE, true,
                                 ).let { scaled ->
                                     if (scaled !== crop) scaled else crop.copy(Bitmap.Config.ARGB_8888, false)
                                 }
-                                embeddingInput = Bitmap.createScaledBitmap(
-                                    displayCrop, EMBEDDING_INPUT_SIZE, EMBEDDING_INPUT_SIZE, true,
-                                )
-                                normalizedFace = alignmentValidator
-                                    .process(InputImage.fromBitmap(embeddingInput, 0)).await()
-                                    .any { validated -> isUsableModelFace(validated.boundingBox) }
-                                if (!normalizedFace) {
-                                    if (BuildConfig.DEBUG) {
-                                        Log.i(
-                                            DIAGNOSTIC_TAG,
-                                            "[DEBUG-face-v4] rejected t=$timestampUs rank=$faceRank box=${face.boundingBox}",
-                                        )
-                                    }
-                                    embeddingInput.recycle()
-                                    displayCrop.recycle()
-                                    crop.recycle()
-                                    return@forEachIndexed
-                                }
                             }
                             crop.recycle()
+                            val embeddingInput = Bitmap.createScaledBitmap(
+                                displayCrop, EMBEDDING_INPUT_SIZE, EMBEDDING_INPUT_SIZE, true,
+                            )
                             val embedding = try {
                                 if (BuildConfig.DEBUG) {
                                     FileOutputStream(
@@ -207,7 +172,6 @@ class FacePipeline(
                     candidateCount = candidates.size,
                 )
             } finally {
-                alignmentValidator.close()
                 detector.close()
                 retriever.release()
             }
@@ -339,12 +303,12 @@ class FacePipeline(
         const val MAX_DURATION_MS = 20_000L
         private const val SAMPLE_WIDTH = 960
         private const val SAMPLE_HEIGHT = 720
-        private const val MIN_CROP_SIZE = 60
-        private const val EMBEDDING_INPUT_SIZE = 112
+        private const val MIN_CROP_SIZE = 24
+        private const val EMBEDDING_INPUT_SIZE = 160
         private const val ALIGNED_DISPLAY_SIZE = 256
-        private const val EMBEDDING_LEFT_EYE_X = 34f
-        private const val EMBEDDING_RIGHT_EYE_X = 78f
-        private const val EMBEDDING_EYE_Y = 43f
+        private const val EMBEDDING_LEFT_EYE_X = 48.57f
+        private const val EMBEDDING_RIGHT_EYE_X = 111.43f
+        private const val EMBEDDING_EYE_Y = 61.43f
         private const val DIAGNOSTIC_TAG = "FaceRecognition"
     }
 }
@@ -376,8 +340,8 @@ private fun cosineSimilarity(a: FloatArray, b: FloatArray): Float =
 /** Suppresses tiny faces embedded in app chrome while retaining the dominant face(s). */
 internal fun shouldKeepDetectedFace(faceWidth: Int, largestWidth: Int, frameWidth: Int): Boolean {
     if (faceWidth <= 0 || largestWidth <= 0 || frameWidth <= 0) return false
-    val absoluteMinimum = frameWidth * 0.10f
-    val relativeMinimum = largestWidth * 0.45f
+    val absoluteMinimum = frameWidth * 0.015f
+    val relativeMinimum = largestWidth * 0.10f
     return faceWidth >= minOf(absoluteMinimum, relativeMinimum)
 }
 
